@@ -1,5 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
+
+class TrieNode:
+    def __init__(self):
+        self.children = {}
+        self.flag = None
+
+
 class Trie:
     def __init__(self):
         """
